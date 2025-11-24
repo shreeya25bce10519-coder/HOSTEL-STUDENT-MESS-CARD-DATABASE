@@ -1,1 +1,3 @@
 # HOSTEL-STUDENT-MESS-CARD-DATABASE
+This project is the simple demonstration of hostel mess attendance tracker made using python language.It is used as a check in system to track the meals and attendance.
+ EXPLANATION OF CODE <BR>STUDENT_DATA (a list of lists containing static student IDs and names) and MEAL_LOG (a list of tuples that stores the attendance records). The log_attendance() function is the core logic; it uses a linear for loop to validate the student_id against STUDENT_DATA, captures the check-in time using the datetime module, and creates a record (a tuple) which is then appended to the MEAL_LOG. Finally, the execution block iterates through the MEAL_LOG and uses f-string formatting (:<) to print a clean, aligned table of the meal records.
